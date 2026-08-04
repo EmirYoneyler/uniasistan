@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Ortam değişkenleri — API anahtarları buraya, ASLA commit etme
+.env
+.env.local
+
+# Veri: kaynak PDF'ler ve türetilmiş metinler repoya girmez
+data/raw/
+data/processed/
+
+# Editör
+.vscode/
+.idea/
+
+# İşletim sistemi
+Thumbs.db
+desktop.ini
+.DS_Store
